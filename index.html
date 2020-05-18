@@ -2,33 +2,9 @@
 <!DOCTYPE html>
 <html lang="en" >
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  
-<script type="text/javascript">
-    $(document).ready(function(){
-      refreshTable();
-    });
-
-    function refreshTable(){
-        $('#tableHolder').load('heatfno200.php', function(){
-           setTimeout(refreshTable, 5000);
-        });
-    }
-</script>
-
-  <title>Heatmap</title>
-
-
-
-      <link rel="stylesheet" href="css/style.css">
-
-
-</head>
-
 <body>
-<div id="tableHolder"></div>
 
+  <iframe src="https://www.unofficed.com/files/heatmap/" width="800px" height="920px"></iframe>
 </body>
 
 </html>
